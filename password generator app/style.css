@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(#184f71, #161976, #0c3148, #184e70);
+    background-blend-mode: soft-light;
+    color: #fff;
+    min-height: 74.8vh;
+    /* min-width: 80vb; */
+    max-height: 500px;
+}
+
+.container {
+    margin: 12%;
+    width: 90%;
+    max-width: 700px;
+}
+
+.display {
+    width: 60%;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    background-color: #fff;
+    color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3px 0 3px 2%;
+    border-radius: 5px;
+}
+
+.container h1 {
+    font-weight: 500;
+    font-size: 45px;
+}
+
+.container h1 span {
+    color: #019f55;
+    border-bottom: 3px solid #019f55;
+    padding-bottom: 1px;
+    font-weight: 600;
+    margin-bottom: 5px;
+
+}
+
+.display {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    width: 85%;
+    max-width: 500px;
+}
+
+.display input {
+    position: relative;
+    border: 0;
+    outline: 0;
+    font-size: 24px;
+    width: 100%;
+}
+
+#toast {
+    display: none;
+    position: relative;
+    margin-top: 40px;
+    left: 8%;
+    height: 40px;
+    width: 250px;
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.display i {
+    position: relative;
+    height: 40px;
+    width: 60px;
+    height: 100%;
+    cursor: pointer;
+    padding: 20px 20px;
+    margin-right: 10px;
+    border-radius: 5px;
+    font-size: 22px;
+    /* background-color: #019f55;
+    color: #fff; */
+    
+}
+
+.container button i {
+    width: 28px;
+    margin-right: 10px;
+}
+
+.container button {
+    border: 0;
+    outline: 0;
+    background-color: #019f55;
+    color: #fff;
+    font-size: 22px;
+    font-weight: 300;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 16px 26px;
+    border-radius: 5px;
+    cursor: pointer;
+}
